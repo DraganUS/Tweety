@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8c2fc0-4ad1-4aaa-977e-494262560f98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -141,6 +140,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -163,7 +163,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586862105508</updated>
-      <workItem from="1586862112069" duration="7066000" />
+      <workItem from="1586862112069" duration="8615000" />
+      <workItem from="1586882293920" duration="492000" />
     </task>
     <servers />
   </component>
@@ -187,13 +188,21 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="219" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586863117281" />
-    <state x="442" y="330" key="NewPhpFileDialog" timestamp="1586879856093">
+    <state x="329" y="223" key="NewPhpClassDialog" timestamp="1586880724665">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="442" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1586879856093" />
-    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup" timestamp="1586878631681">
+    <state x="329" y="223" key="NewPhpClassDialog/0.0.1280.800@0.0.1280.800" timestamp="1586880724665" />
+    <state x="442" y="330" key="NewPhpFileDialog" timestamp="1586880735712">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586878631681" />
+    <state x="442" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1586880735712" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1586882739120">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586882739120" />
+    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup" timestamp="1586882748902">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586882748902" />
   </component>
 </project>
