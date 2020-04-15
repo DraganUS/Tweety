@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ac8c2fc0-4ad1-4aaa-977e-494262560f98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +166,7 @@
       <updated>1586862105508</updated>
       <workItem from="1586862112069" duration="8615000" />
       <workItem from="1586882293920" duration="757000" />
-      <workItem from="1586883350657" duration="4014000" />
+      <workItem from="1586883350657" duration="5364000" />
     </task>
     <servers />
   </component>
@@ -200,10 +202,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586887071555" />
-    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup" timestamp="1586888624335">
+    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup" timestamp="1586910067464">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="59" width="670" height="642" key="search.everywhere.popup/0.0.1280.759@0.0.1280.759" timestamp="1586886539611" />
-    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586888624335" />
+    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586910067464" />
   </component>
 </project>
