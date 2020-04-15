@@ -21,23 +21,26 @@ class ProfilesController extends Controller
 
     public function update(User $user)
     {
-        request()->validate([
+        $attributes = request()->validate([
             'username' => [
                 'string',
-                'require',
+                'required',
                 'max:225',
                 'alpha_dash',
                 Rule::unique('users')->ignore($user)
             ],
             'name' =>[
                 'string',
-                'require',
+                'required',
                 'max:225',
 
             ],
+            'avatar'=>[
+                'file'
+            ],
             'email' =>[
                 'string',
-                'require',
+                'required',
                 'email',
                 'max:225',
                 Rule::unique('users')->ignore($user)
@@ -47,8 +50,14 @@ class ProfilesController extends Controller
                 'required',
                 'min:8',
                 'max:225',
-                'conformed'
+                'confirmed'
             ]
         ]);
+
+       $attributes['avatar'] = request('avatar')->store('avatars');
+
+        $user->update($attributes);
+
+        return redirect($user->path());
     }
 }
