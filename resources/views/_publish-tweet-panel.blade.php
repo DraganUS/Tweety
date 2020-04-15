@@ -17,6 +17,8 @@
                 src="{{ auth()->user()->avatar}}"
                 alt="your avatar"
                 class="rounded-full mr-2"
+                width="40"
+                height="40"
             >
             <button
                 type="submit"
