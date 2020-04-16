@@ -1,7 +1,7 @@
 <x-app>
     <div>
         @foreach($users as $user)
-            <div class="flex items-center mb-5">
+            <a href="{{$user->path()}}" class="flex items-center mb-5">
                 <img
                     src="{{$user->avatar}}"
                     alt="{{$user->avatar}}"
@@ -9,7 +9,7 @@
                     class="mr-4"
                 >
                 <h4 class="font-bold"> {{'@' .$user->username }} </h4>
-            </div>
+            </a>
             @endforeach
         {{ $users->links() }}
     </div>
