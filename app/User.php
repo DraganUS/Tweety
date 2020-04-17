@@ -55,7 +55,7 @@ class User extends Authenticatable
 // ->orWhere('user_id', $this->id) 'ako zelim da vidim i svoje postove'
             ->orWhere('user_id', $this->id)
             ->latest()
-            ->get();
+            ->paginate(50);
     }
 
     public function tweets()
